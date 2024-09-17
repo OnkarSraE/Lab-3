@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Blog Post Submission</title>
+        <style>
+            body {
+                background-color: beige;
+            }
+            h1 {
+                color:blue;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Submit a new Blogpost</h1>
+        <form>
+            <label for="bptitle">Blog Post Title: </label><br>
+            <input type="text" name="bptitle" value="Enter Title"><br>
+            <label for="authorsname">Authors name: </label><br>
+            <input type="text" name="authorsname" value="Full Name"><br>
+            <label for="Content">Type your content here: </label><br>
+            <textarea name="Content" rows="5" cols="50" value="Type here..."></textarea><br>
+            <label for="category">Choose Blogpost Category: </label><br>
+            <select name="category" id="category">
+                <option value="article">Article</option>
+                <option value="video">Video</option>
+                <option value="link">Link</option>
+            </select>
+            <br><br>
+            <button type="button" oneclick="alert('Form Submitted!')">Submit</button>
+
+           
+
+        </form>
+        <script>
+            function submitAlert() {
+                alert('Form Submitted');
+            }
+        </script>
+    </body>
+</html>
