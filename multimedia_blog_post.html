@@ -1,24 +1,42 @@
 <!DOCTYPE html>
 <html>
+
+<head>
     <title>Multimedia Blog Post</title>
-    <body>
-        <h3>Embedded Video</h3>
-        <section class="media"></section>
-        <iframe width="600" height="500" src="https://www.youtube.com/embed/OujC3BK_vyg" title="HIGH ON ME (TEASER): YO YO HONEY SINGH" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <style>
+        body {
+            background-color: rgb(243, 179, 62);
+        }
+        h1 {
+            background-color: aquamarine;
+            text-align: center;
+            color: rgb(230, 92, 77);
+        }
+    </style>
+</head>
 
-        <h3>Image with a Caption</h3>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/1/10/IC_engine.JPG" alt="V6 Engine" width="300" height="300" >
-        <figcaption>This is V6 engine diagram.</figcaption>
+<body>
+    <h1>Embedded Video</h1>
 
-        <h3>Audio Clip</h3>
-        <audio controls>
-            <source src="audio_file.mp3" type="audio/mpeg">
-        </audio>
+    <center><iframe width="600" height="500" src="https://www.youtube.com/embed/OujC3BK_vyg"
+        title="HIGH ON ME (TEASER): YO YO HONEY SINGH" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
 
-        <h3>Video Blog Entry</h3>
-        <video control width="100%">
-            <source src="video.mp4" type="video/mp4">
-        </video>
-        </body>
+    <h1>Image with a Caption</h1>
+    <center><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Kailash_north.JPG/1920px-Kailash_north.JPG"
+        alt="Mount Kailash" width="700" height="600"></center>
+    <center><figcaption style="color: royalblue;"><em>This is Mount Kailash located in Nepal.</em></figcaption></center>
+
+    <h1>Audio Clip</h1>
+    <audio controls>
+        <source src="audio_file.mp3" type="audio/mpeg">
+    </audio>
+
+    <h1>Video Blog Entry</h1>
+    <video width="600" height="500" controls>
+        <source src="video.mp4" type="video/mp4">
+    </video>
+</body>
+
 </html>
-            
